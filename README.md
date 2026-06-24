@@ -1,168 +1,53 @@
-# Big Data Engineering Bootcamp - Learning Journey 🚀
+# Distributed E-Commerce Data Pipeline & Analytics Platform 🚀
 
-Welcome to my Big Data Engineering repository! This repository showcases my comprehensive learning journey through modern big data technologies, cloud platforms, and distributed computing systems. Each folder contains hands-on projects and implementations demonstrating practical skills acquired during the bootcamp.
-
-## 📚 Course Overview
-
-This intensive bootcamp provided profound understanding of big data concepts, from foundational distributed systems to modern cloud-native solutions. The course emphasized hands-on experience with industry-standard tools and real-world project implementations.
-
-## 🛠 Technologies & Tools Mastered
-
-### **Distributed Computing & Storage**
-- **Hadoop Ecosystem**: HDFS, YARN, MapReduce
-- **Apache Spark**: PySpark, RDDs, DataFrames, Spark SQL
-- **Apache Hive**: HQL, Metastore, Derby DB
-- **Google Cloud Dataproc**: Cluster management and distributed processing
-
-### **Real-Time Data Streaming**
-- **Apache Kafka**: Producer/Consumer patterns, Confluent Cloud
-- **Stream Processing**: Real-time data ingestion and processing
-
-### **Containerization & Orchestration**
-- **Docker**: Container creation, Dockerfile, multi-container applications
-- **Docker Compose**: Service orchestration and networking
-- **Apache Airflow**: Workflow orchestration, DAGs, task scheduling
-
-### **Cloud Platforms**
-- **Google Cloud Platform (GCP)**: Dataproc, BigQuery, Cloud Storage
-- **Microsoft Azure**: Data Factory, Data Lake Storage, Synapse Analytics, Databricks
-
-### **Databases & Data Storage**
-- **MySQL**: Relational database operations and data ingestion
-- **MongoDB**: NoSQL document database integration
-- **SQLite**: Lightweight database for development and testing
-
-### **Programming & Development**
-- **Python**: Core programming, data manipulation, ETL processes
-- **PySpark**: Distributed data processing and analytics
-- **SQL**: Advanced querying, data analysis, and reporting
-
-## 🗂 Repository Structure
-
-### **Core Learning Modules**
-- [`Python/`](./Python/) - Python fundamentals, pandas, numpy, OOP concepts
-- [`Apache_Spark_Pyspark_Jobs/`](./Apache_Spark_Pyspark_Jobs/) - Spark applications and data analysis
-- [`Apache_Kafka_Streamline/`](./Apache_Kafka_Streamline/) - Kafka streaming implementations
-- [`MySQL/`](./MySQL/) - SQL queries and database operations
-- [`SQLite/`](./SQLite/) - Local database development and logging
-
-### **Cloud & Orchestration Projects**
-- [`Azure_Synapse_SQL_Queries/`](./Azure_Synapse_SQL_Queries/) - Azure Synapse Analytics implementations
-- [`ADLS_Medalian_Structured_Storage/`](./ADLS_Medalian_Structured_Storage/) - Medallion architecture on Azure Data Lake
-- [`Airflow_Orchestrations/`](./Airflow_Orchestrations/) - Workflow orchestration and ETL pipelines
-- [`Docker_Deployments/`](./Docker_Deployments/) - Containerized applications and services
-
-### **Data Processing & Analytics**
-- [`Databricks_Data_Processing/`](./Databricks_Data_Processing/) - Advanced analytics on Databricks
-- [`GCP_Pyspark_Data_Analysis/`](./GCP_Pyspark_Data_Analysis/) - Google Cloud data processing
-- [`Data_Ingestion_MySQL_MongoDB/`](./Data_Ingestion_MySQL_MongoDB/) - Multi-source data ingestion
-
-### **Pipeline & Integration**
-- [`ADF_Data_Ingestion_Pipeline/`](./ADF_Data_Ingestion_Pipeline/) - Azure Data Factory pipelines
-- [`ccloud-python-client/`](./ccloud-python-client/) - Confluent Cloud integration
-
-## 🏗 Key Learning Concepts
-
-### **Distributed Systems Architecture**
-- **Hadoop File System (HDFS)**: Understanding data distribution across worker nodes
-- **Master-Worker Architecture**: How master nodes coordinate with worker nodes for distributed processing
-- **Cluster Management**: Hands-on experience with Google Dataproc clusters
-- **Resource Management**: YARN for resource negotiation and parallel processing
-
-### **Data Processing Evolution**
-- **MapReduce**: Legacy distributed processing framework and its limitations
-- **Apache Spark**: Modern alternative with in-memory processing capabilities
-- **Spark Components**: Jobs, Tasks, Stages, Partitions, and execution optimization
-
-### **Data Storage Strategies**
-- **Medallion Architecture**: Bronze, Silver, Gold data layers
-- **Data Lake Storage**: Structured and unstructured data management
-- **Metastore Management**: Hive for SQL table metadata storage
-
-### **Modern Data Pipeline Architecture**
-- **Real-Time Streaming**: Kafka for continuous data ingestion
-- **Batch Processing**: Scheduled ETL workflows
-- **Workflow Orchestration**: Airflow DAGs for complex pipeline management
-- **Containerization**: Docker for consistent deployment environments
-
-## 🎯 Hands-On Projects
-
-### **End-to-End Azure Cloud Project**
-Implemented a comprehensive data pipeline featuring:
-- **Data Ingestion**: GitHub HTTP requests and MongoDB integration via Azure Data Factory
-- **Storage**: Azure Data Lake Storage with Medallion architecture
-- **Processing**: Azure-powered Databricks for data transformation
-- **Analytics**: Azure Synapse for external table creation and analysis
-- **Serving**: Gold layer data ready for downstream consumption by Data Scientists and Analysts
-
-## 🎯 Key Production Projects
-
-### **Real-Time Streaming Pipeline**
-• **Engineered** Apache Kafka producer/consumer architecture with **topic subscription** for high-throughput real-time message processing and data streaming at enterprise scale.
-
-### **Workflow Orchestration Platform**
-• **Implemented** Apache Airflow DAGs for **cyclical ETL workflows**, successfully deployed to production environments including Astro Cloud and AWS with automated scheduling.
-
-### **Containerized Data Platform**
-• **Architected** Docker multi-container solution integrating **Kafka + PostgreSQL + API ingestion**, deployed to Docker Hub for scalable data processing and analytics.
-
-### **End-to-End Azure Cloud Pipeline**
-• **Delivered** production-grade data pipeline using **ADF + ADLS + Databricks + Synapse**, implementing medallion architecture for enterprise data lake solutions.
-
-### **Distributed Processing & Analytics Platform**
-• **Orchestrated** HDFS data migration from local to **Google Cloud Storage + Dataproc**, leveraging Apache Spark and PySpark for parallel processing of 4+ synthetic e-commerce datasets.
-
-## 📊 Data Analysis & Visualization
-
-### **E-commerce Data Analysis**
-- **Platform**: Databricks and Google Cloud
-- **Dataset**: Olist Brazilian E-commerce dataset
-- **Techniques**: Data transformation, statistical analysis, and visualization
-- **Deliverables**: Comprehensive insights and business intelligence reports
-
-## 🔧 Development Environment
-
-- **Languages**: Python, SQL, HQL
-- **IDEs**: Jupyter Notebook, Databricks Notebooks, VS Code
-- **Version Control**: Git/GitHub
-- **Cloud Platforms**: GCP, Azure
-- **Containerization**: Docker, Docker Compose
-
-## 📈 Skills Acquired
-
-### **Technical Skills**
-- Distributed data processing and parallel computing
-- Real-time and batch data pipeline development
-- Cloud-native application development
-- Container orchestration and deployment
-- Advanced SQL and NoSQL database management
-
-### **Architecture & Design**
-- Microservices architecture design
-- Data lake and data warehouse design patterns
-- ETL/ELT pipeline architecture
-- Scalable system design principles
-
-### **DevOps & Operations**
-- Infrastructure as Code concepts
-- Continuous integration principles
-- Monitoring and logging implementations
-- Performance optimization strategies
-
-## 🚀 Future Learning Goals
-
-- Machine Learning pipeline integration
-- DataOps and MLOps implementations
-- Advanced stream processing patterns
-
-## 📞 Contact
-
-Feel free to explore the projects and reach out for discussions on big data engineering, cloud architecture, or distributed systems!
-
-## 🙏 Acknowledgement
-
-- Udemy: [Big Data Engineering - Azure, GCP, AWS](https://www.udemy.com/share/10cMDh3@TbwMYKRyzF_nXnQ7M_xxvEvWFBo3RwmhWer_pVyNMNL4B8qgtLYxIFw1JIcRqkrKDQ==/)
+This repository showcases an end-to-end distributed data engineering platform designed to handle both high-throughput real-time streaming and large-scale batch processing workflows. The platform processes multi-source e-commerce datasets (modeled after the Olist Brazilian E-commerce schema) utilizing modern distributed computing systems, cloud infrastructure, and orchestration layers.
 
 ---
 
-*This repository represents my journey through modern big data engineering practices, showcasing hands-on experience with industry-standard tools and real-world project implementations.* 
+## 🛠️ Technologies & Tools Mastered
+
+- **Distributed Processing & Analytics:** Apache Spark (PySpark), Spark SQL, Google Cloud Dataproc
+- **Workflow Orchestration:** Apache Airflow (DAG design, task scheduling)
+- **Real-Time Data Streaming:** Apache Kafka (Producer/Consumer architecture)
+- **Containerization & Deployment:** Docker, Docker Compose
+- **Databases & Cloud Storage:** MongoDB, MySQL, SQLite, Google Cloud Storage (GCS)
+- **Core Languages:** Python, SQL
+
+---
+
+## 🏗️ System Architecture & Core Pipelines
+
+### 1. Distributed Batch Processing Platform
+- Orchestrated data migration from local storage layers to **Google Cloud Storage (GCS)** and **Dataproc clusters**.
+- Processed 4+ synthetic and transactional e-commerce datasets in parallel using **PySpark DataFrames** and **Spark SQL** for data cleansing, complex relational joins, and analytics.
+
+### 2. Real-Time Streaming Pipeline
+- Engineered an **Apache Kafka** producer/consumer architecture with topic subscription patterns to simulate enterprise-scale real-time order transaction logs and event streaming.
+
+### 3. Workflow Orchestration Platform
+- Implemented **Apache Airflow DAGs** for defining cyclically scheduled ETL workflows, automating dependency tracking, data transformations, and system logs.
+
+### 4. Containerized Data Environment
+- Architected a multi-container local development framework using **Docker Compose** to seamlessly spin up integrated instances of Kafka brokers, NoSQL/SQL databases, and API ingestion tasks.
+
+---
+
+## 🗂️ Project Directory Structure
+
+- `Apache_Spark_Pyspark_Jobs/` – PySpark scripts, processing workflows, and analytics notebooks.
+- `Apache_Kafka_Streamline/` – Real-time Kafka infrastructure and data streaming configuration scripts.
+- `Airflow_Orchestrations/` – Airflow DAG definitions for automated data workflows.
+- `Docker_Deployments/` – Production-grade Dockerfiles and Docker Compose orchestration profiles.
+- `Data_Ingestion_MySQL_MongoDB/` – Multi-source pipeline scripts for reading and writing data across relational and NoSQL storage.
+- `GCP_Pyspark_Data_Analysis/` – Cloud-native analytics and schema modeling implementations on GCP.
+- `Azure_Synapse_SQL_Queries/` & `ADF_Data_Ingestion_Pipeline/` – Analytical processing queries and cloud architecture tracking.
+
+---
+
+## 📈 Engineering Principles Demonstrated
+- **Distributed Architecture:** Designing master-worker partition tasks to eliminate structural memory bottlenecks.
+- **Medallion Schema Architecture:** Handling structured and unstructured data across raw ingestion (Bronze), validation (Silver), and analytical serving (Gold) layers.
+- **Defensive Coding:** Removing hardcoded credentials, API keys, and database passwords from public version-controlled systems to secure production infrastructure.
+
+---
+
