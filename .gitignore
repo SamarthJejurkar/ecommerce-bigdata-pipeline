@@ -1,0 +1,9 @@
+*.zip
+.venv
+__pychache__
+SQLite/logs/
+SQLite/logs/app.log
+!SQLite/app.log
+Extracts
+data/raw/*
+ccloud-python-client
